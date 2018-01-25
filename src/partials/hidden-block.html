@@ -1,0 +1,81 @@
+<div class="hidden-block">
+
+  <div id="call_success">
+      <div class="call-success">
+           <div class="call_success">
+               <div class="call-title">Спасибо за заявку!</div>
+               <div class="call-subtitle">Мы свяжемся с Вами в ближайшее время</div>
+           </div>
+      </div>
+  </div>
+
+  <div id="call-popup">
+      <form action="ajax.php" name="" class="contact-form">
+          <div class="contact-form-title">
+              <h5>Lorem ipsum dolor.</h5>
+          </div>
+          <div class="contact-form-row cfix">
+              <div class="contact-form-item">
+                  <div class="contact-form-item-input form_row">
+                      <div class="form_input">
+                          <input type="text" name="contact_name" required="required" value="" placeholder="Ваше Имя">
+                      </div>
+                  </div>
+              </div>
+              <div class="contact-form-item">
+                  <div class="contact-form-item-input form_row">
+                      <div class="form_input">
+                          <input type="text" name="contact_tel" value="" required="required" placeholder="Ваш номер" class="tel-mask">
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="contact-form-row cfix">
+              <div class="contact-form-item">
+                  <button type="submit" class="contact-submit">
+                      <span>Отправить заявку</span>
+                  </button>
+              </div>
+          </div>
+      </form>
+  </div>
+
+  <div id="sms-popup">
+    <h5>Введите код из SMS</h5>
+    <p>Для активации карты, введите код подтверждения</p>
+    <form class="sms-form" action="ajax.php" method="post" name="smsForm">
+      <div class="form-field">
+        <input id="smsInput" class="sms" type="text" name="sms" required autofocus=""/>
+      </div>
+      <span>Код подтверждения введен неправильно! Осталось попыток: <b>2</b></span>
+      <a href="#">Отправить снова</a>
+      <button type="submit">Отправить</button>
+    </form>
+  </div>
+
+  <div id="sms-popup2">
+    <h5>Введите код из SMS</h5>
+    <p>Для активации карты, введите код подтверждения</p>
+    <form action="ajax.php" method="post">
+      <div class="form-field">
+        <input class="sms" type="text" name="sms" autofocus="autofocus" required />
+      </div>
+      <span> Следующая отправка кода подтверждения возможна через
+      <br><b>30</b> сек</span>
+      <button type="submit">Отправить</button>
+    </form>
+  </div>
+
+  <div id="sms_success" class="success">
+    <h5 class="title-red">Карта успешно активирована!</h5>
+    <p>Вам отправлены данные для авторизации в 
+    <br>Вашем личном кабинете</p>
+    <span>Авторизоваться можно по <a href="#">Ссылке</a>
+    <br>или на портале <a href="#">KinderEdu</a></span>
+  </div>
+
+  <div id="contacts_map">
+    <div id="mymap2"></div>
+  </div>
+
+</div>

@@ -1,0 +1,826 @@
+@media screen and (max-width: 1366px) {
+  body {
+    zoom: 0.85; }
+  .header .header-wrap {
+    margin-bottom: 0; }
+  .header nav ul li a {
+    font-size: 19px; }
+  .phone {
+    font-size: 24px; }
+  .title {
+    padding-bottom: 0;
+    font-size: 37px; }
+  .connection {
+    padding: 140px 0 60px 0;
+    margin-bottom: 5px; }
+    .connection h2 {
+      font-size: 37px; }
+    .connection .connect-request {
+      max-width: 515px; }
+      .connection .connect-request h3 {
+        font-size: 24px;
+        line-height: 32px; }
+      .connection .connect-request p {
+        font-size: 23px;
+        margin-bottom: 25px; }
+      .connection .connect-request form .form-field {
+        margin-bottom: 15px; }
+        .connection .connect-request form .form-field:last-of-type {
+          margin-bottom: 40px; }
+        .connection .connect-request form .form-field input {
+          height: 55px;
+          font-size: 21px; }
+      .connection .connect-request form button {
+        width: 260px;
+        height: 55px;
+        font-size: 19px; }
+  .platform-info {
+    margin-bottom: 15px; }
+    .platform-info h2 {
+      font-size: 32px; }
+    .platform-info .platform-connect {
+      max-width: 680px;
+      margin: 0 auto; }
+      .platform-info .platform-connect a img {
+        width: 65px; }
+      .platform-info .platform-connect p {
+        font-size: 19px; }
+    .platform-info .platform-pic .partners {
+      width: 275px;
+      height: 225px; }
+      .platform-info .platform-pic .partners:after {
+        left: 15px; }
+      .platform-info .platform-pic .partners span {
+        font-size: 65px;
+        line-height: 215px; }
+  .contacts {
+    padding-top: 90px;
+    margin-bottom: 10px; }
+    .contacts h2 {
+      font-size: 37px;
+      margin-bottom: 15px; }
+    .contacts .contacts-wrap form .form-field {
+      margin-bottom: 15px; }
+      .contacts .contacts-wrap form .form-field.textarea-field {
+        margin-bottom: 15px; }
+      .contacts .contacts-wrap form .form-field input {
+        height: 50px;
+        font-size: 19px; }
+      .contacts .contacts-wrap form .form-field textarea {
+        font-size: 19px; }
+    .contacts .contacts-wrap form button {
+      width: 230px;
+      height: 47px; }
+    .contacts .contacts-wrap .contacts-block {
+      padding: 15px 0 15px 0; }
+      .contacts .contacts-wrap .contacts-block .contacts-list {
+        padding: 0 50px 0 50px;
+        margin-bottom: 10px; }
+        .contacts .contacts-wrap .contacts-block .contacts-list .contacts-item {
+          margin-bottom: 15px; }
+          .contacts .contacts-wrap .contacts-block .contacts-list .contacts-item:nth-child(3), .contacts .contacts-wrap .contacts-block .contacts-list .contacts-item:nth-child(4) {
+            margin-bottom: 15px; }
+          .contacts .contacts-wrap .contacts-block .contacts-list .contacts-item .contacts-icon {
+            position: relative;
+            width: 30px;
+            height: 30px; }
+            .contacts .contacts-wrap .contacts-block .contacts-list .contacts-item .contacts-icon img {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              -webkit-transform: translate(-50%, -50%);
+              -moz-transform: translate(-50%, -50%);
+              -ms-transform: translate(-50%, -50%);
+              -o-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+              max-width: 30px;
+              max-height: 30px; }
+          .contacts .contacts-wrap .contacts-block .contacts-list .contacts-item a, .contacts .contacts-wrap .contacts-block .contacts-list .contacts-item span {
+            padding-left: 15px;
+            font-size: 19px; }
+      .contacts .contacts-wrap .contacts-block .contacts-social a {
+        width: 47px;
+        height: 47px; }
+  .activation {
+    padding-top: 95px; }
+    .activation h2 {
+      margin-bottom: 5px; }
+    .activation .instruction {
+      margin-bottom: 13px; }
+      .activation .instruction ul li {
+        font-size: 19px;
+        line-height: 32px; }
+    .activation form {
+      margin-bottom: 10px; }
+      .activation form .form-field input {
+        font-size: 21px;
+        width: 325px;
+        height: 65px; }
+      .activation form button {
+        width: 325px;
+        height: 65px; }
+    .activation .card {
+      margin-bottom: 10px; }
+      .activation .card:before {
+        top: -15px; }
+  .discount {
+    margin-bottom: 75px; }
+    .discount .discount-info p {
+      font-size: 19px;
+      line-height: 32px; }
+      .discount .discount-info p:last-child {
+        font-size: 19px;
+        line-height: 32px; }
+    .discount .discount-top-row {
+      margin-bottom: 25px; }
+      .discount .discount-top-row .discount-item:nth-child(1) {
+        width: 230px;
+        height: 220px; }
+      .discount .discount-top-row .discount-item:nth-child(3) {
+        width: 205px;
+        height: 180px; }
+      .discount .discount-top-row .discount-item:nth-child(4) {
+        width: 215px;
+        height: 195px; }
+    .discount .discount-bottom-row .discount-item:nth-child(2) {
+      width: 235px;
+      height: 195px; }
+  .profile {
+    margin-bottom: 70px; }
+    .profile h2 {
+      margin-bottom: 5px; }
+    .profile .profile-info {
+      margin-bottom: 15px; }
+      .profile .profile-info p {
+        font-size: 19px;
+        line-height: 32px; }
+    .profile .profile-row {
+      margin-bottom: 0; }
+      .profile .profile-row .profile-item p {
+        font-size: 20px; }
+      .profile .profile-row .profile-item span {
+        font-size: 16px; }
+      .profile .profile-row.profile-top-row {
+        margin-bottom: 15px; }
+  .our-partners {
+    padding-top: 100px; }
+    .our-partners h2 {
+      margin-bottom: 0; }
+    .our-partners form {
+      margin-bottom: 15px; }
+      .our-partners form .form-field input {
+        font-size: 23px;
+        line-height: 50px; }
+      .our-partners form .form-field button {
+        top: 15px; }
+        .our-partners form .form-field button img {
+          width: 50%; }
+    .our-partners .partners-wrap a {
+      margin-bottom: 0; }
+  .partner {
+    padding-top: 110px; }
+    .partner .partner-top {
+      padding-bottom: 0px;
+      margin-bottom: 35px; }
+      .partner .partner-top h1 {
+        line-height: 60px;
+        font-size: 36px; }
+    .partner .partner-info {
+      margin-bottom: 20px;
+      padding-bottom: 20px; }
+      .partner .partner-info .partner-info-right p {
+        font-size: 19px;
+        line-height: 32px; }
+    .partner .card-loyalty .tabs-wrap {
+      margin-bottom: 35px; }
+  .footer .footer-wrap .footer-right .footer-phone a:before {
+    left: 40px; } }
+
+@media screen and (max-width: 1250px) {
+  #contacts_map {
+    width: 800px; } }
+
+@media screen and (max-width: 1151px) {
+  .activation form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .activation form .form-field {
+      margin-bottom: 20px; }
+  .activation .instruction-steps {
+    float: none;
+    width: 100%; } }
+
+@media screen and (max-width: 1085px) {
+  .our-partners .partners-wrap {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .partner .partner-info .partner-info-right {
+    max-width: 576px; } }
+
+@media screen and (max-width: 1079px) {
+  .activation .instruction-steps {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 569px;
+    margin: 0 auto 70px auto; }
+    .activation .instruction-steps .steps-item {
+      width: 245px;
+      text-align: center; }
+      .activation .instruction-steps .steps-item:nth-child(2):after {
+        display: none; }
+  .discount .discount-top-row {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: 0 auto 40px auto; }
+    .discount .discount-top-row .discount-item:nth-child(2) {
+      margin-bottom: 55px; }
+  .discount .discount-bottom-row {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: 0 auto; }
+    .discount .discount-bottom-row .discount-item:nth-child(4) {
+      margin-top: 30px; } }
+
+@media screen and (max-width: 1024px) {
+  body {
+    zoom: 0.7; } }
+
+@media screen and (max-width: 1023px) {
+  .title {
+    font-size: 39px;
+    padding-bottom: 10px; }
+  .connection h2 {
+    font-size: 39px; }
+  .platform-info h2 {
+    font-size: 39px; }
+  .contacts h2 {
+    font-size: 39px; }
+  .partner .card-loyalty h2 {
+    font-size: 39px; }
+  .discount .discount-info p {
+    font-size: 24px; }
+    .discount .discount-info p:last-child {
+      font-size: 24px; }
+  .profile .profile-row .profile-item p {
+    font-size: 21px; }
+  .profile .profile-row .profile-item span {
+    font-size: 14px; } }
+
+@media screen and (max-width: 992px) {
+  .partner .card-loyalty h2:after {
+    right: 290px; } }
+
+@media screen and (max-width: 959px) {
+  .profile .profile-row {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: 0 auto; }
+  .partner .partner-info .partner-info-right {
+    max-width: 472px; }
+    .partner .partner-info .partner-info-right p {
+      font-size: 20px; }
+  .partner .card-loyalty h2:after {
+    right: 250px; } }
+
+@media screen and (max-width: 854px) {
+  .connection .connect-request {
+    margin: 0 auto; }
+  .contacts .contacts-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .contacts .contacts-wrap form {
+      width: 100%;
+      max-width: 810px; }
+    .contacts .contacts-wrap .contacts-block {
+      width: 100%;
+      max-width: 810px;
+      padding-bottom: 40px; }
+  .footer .footer-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .footer .footer-wrap .footer-left span {
+      text-align: center;
+      display: block; }
+  .our-partners form .form-field input {
+    width: 85%; }
+  .partner .partner-info .partner-info-right {
+    max-width: 380px; }
+    .partner .partner-info .partner-info-right p {
+      font-size: 18px; }
+  .partner .card-loyalty h2:after {
+    right: 180px; }
+  .footer .footer-wrap .footer-right {
+    text-align: center; }
+    .footer .footer-wrap .footer-right .footer-phone a:before {
+      left: 10px; } }
+
+@media screen and (max-width: 853px) {
+  .partner .card-loyalty .tabs-wrap .tab-content .list-item .table-body .table-row .table-body-item p {
+    font-size: 17px; } }
+
+@media screen and (max-width: 768px) {
+  body {
+    zoom: 0.9; }
+  #contacts_map {
+    width: 600px; }
+  .partner .partner-top h1 {
+    font-size: 40px; }
+  .partner .partner-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .partner .partner-info .partner-logo {
+      margin-bottom: 20px; }
+    .partner .partner-info .partner-info-right p span {
+      font-size: 23px; }
+    .partner .partner-info .partner-info-right a {
+      margin: 0 auto; }
+  .partner .card-loyalty h2:after {
+    right: 70px; }
+  .partner .card-loyalty .tabs-wrap .tab-content .list-item .table-head h5:nth-child(2) {
+    width: 150px; }
+  .partner .card-loyalty .tabs-wrap .tab-content .list-item .table-head h5:nth-child(3) {
+    width: 185px; }
+  .partner .card-loyalty .tabs-wrap .tab-content .list-item .table-body .table-row .table-body-item:nth-child(1) {
+    width: 356px; }
+  .connection .connect-request form:after {
+    right: -80px; } }
+
+@media screen and (max-width: 732px) {
+  body {
+    zoom: 0.5; } }
+
+@media screen and (max-width: 704px) {
+  .header nav ul {
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
+    .header nav ul li a {
+      font-size: 18px; }
+  .partner .card-loyalty .tabs-wrap .tab-content .list-item .table-head h5:nth-child(2) {
+    width: 150px; }
+  .partner .card-loyalty .tabs-wrap .tab-content .list-item .table-head h5:nth-child(3) {
+    width: 125px; }
+  .partner .card-loyalty .tabs-wrap .tab-content .list-item .table-body .table-row .table-body-item:nth-child(3) {
+    width: 106px; } }
+
+@media screen and (max-width: 667px) {
+  body {
+    zoom: 0.6; } }
+
+@media screen and (max-width: 660px) {
+  .partner .card-loyalty h2:after {
+    right: 5px; } }
+
+@media screen and (max-width: 640px) {
+  body {
+    zoom: 0.7; }
+  .partner .card-loyalty .tabs-wrap .tab-content .list-item .table-body .table-row .table-body-item p {
+    font-size: 16px; } }
+
+@media screen and (max-width: 605px) {
+  .connection .connect-request form:after {
+    right: -80px; } }
+
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 35px;
+    line-height: 65px; }
+  .connection h2 {
+    font-size: 35px; }
+  .connection .connect-request h3 {
+    font-size: 34px; }
+  .platform-info h2 {
+    font-size: 35px; }
+  .contacts h2 {
+    font-size: 35px; }
+  .activation .instruction ul li {
+    font-size: 17px; }
+  .activation form .form-field input {
+    padding-left: 0;
+    text-align: center;
+    font-size: 20px; }
+  .activation form button {
+    font-size: 21px; }
+  .activation .instruction-steps {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .activation .instruction-steps .steps-item {
+      margin-bottom: 20px; }
+      .activation .instruction-steps .steps-item:after {
+        right: -5px;
+        top: 95px;
+        -webkit-transform: rotate(-30deg);
+        -moz-transform: rotate(-30deg);
+        -ms-transform: rotate(-30deg);
+        -o-transform: rotate(-30deg);
+        transform: rotate(-30deg); }
+      .activation .instruction-steps .steps-item:nth-child(1):after {
+        right: -5px;
+        top: 95px; }
+      .activation .instruction-steps .steps-item:nth-child(2):after {
+        display: block; }
+  .discount {
+    margin-bottom: 85px; }
+    .discount .discount-info p {
+      font-size: 17px; }
+      .discount .discount-info p:last-child {
+        font-size: 17px; }
+    .discount .discount-top-row {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -moz-box-orient: vertical;
+      -moz-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -moz-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .discount .discount-top-row .discount-item:nth-child(1) {
+        margin-bottom: 45px; }
+      .discount .discount-top-row .discount-item:nth-child(3) {
+        margin-bottom: 45px; }
+    .discount .discount-bottom-row {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -moz-box-orient: vertical;
+      -moz-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -moz-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .discount .discount-bottom-row .discount-item:nth-child(2) {
+        margin-bottom: 30px; }
+  .profile {
+    margin-bottom: 40px; }
+    .profile .profile-info p {
+      font-size: 17px; }
+    .profile .profile-row {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -moz-box-orient: vertical;
+      -moz-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -moz-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .profile .profile-row .profile-item {
+        margin-bottom: 25px; }
+  .footer .footer-wrap .footer-left .footer-list-wrap {
+    display: none;
+    width: 100%;
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .footer .footer-wrap .footer-left .footer-list-wrap .footer-list-col {
+      margin-bottom: 20px; }
+      .footer .footer-wrap .footer-left .footer-list-wrap .footer-list-col:last-child {
+        margin-bottom: 0; }
+  .burger-foot {
+    display: block; }
+  .our-partners form .form-field input {
+    font-size: 22px; }
+  .partner .card-loyalty h2 {
+    font-size: 35px; }
+  .partner .card-loyalty .tabs-wrap .tab-content .list-item .table-body .table-row .table-body-item p {
+    font-size: 15px; } }
+
+@media screen and (max-width: 580px) {
+  .partner .card-loyalty h2:after {
+    display: none; } }
+
+@media screen and (max-width: 575px) {
+  .partner .card-loyalty .tabs-wrap .tab-content .list-item .table-body .table-row .table-body-item p {
+    font-size: 14px; } }
+
+@media screen and (max-width: 568px) {
+  body {
+    zoom: 0.5; } }
+
+@media screen and (max-width: 551px) {
+  .activation .card:before {
+    right: -40px;
+    top: -65px;
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    transform: rotate(-30deg); } }
+
+@media screen and (max-width: 540px) {
+  .burger {
+    display: block; }
+  .phone {
+    font-size: 20px;
+    line-height: 33px; }
+  .header {
+    padding: 7px 0 0px 0; }
+    .header .header-wrap {
+      margin-bottom: 10px;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -moz-box-orient: vertical;
+      -moz-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+      .header .header-wrap .logo {
+        margin-bottom: 10px; }
+    .header nav {
+      max-width: 100%;
+      margin-bottom: 10px; }
+      .header nav ul {
+        display: none;
+        text-align: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -moz-box-orient: vertical;
+        -moz-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -moz-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        max-width: 350px;
+        margin: 0 auto; }
+        .header nav ul li {
+          margin-bottom: 15px; }
+          .header nav ul li a {
+            padding-bottom: 5px;
+            line-height: 29px; }
+  .activation {
+    padding-top: 155px; }
+  .our-partners {
+    padding-top: 155px; }
+  .partner {
+    padding-top: 170px; }
+    .partner .card-loyalty .tabs-wrap .tab-content .list-item .table-head h5:nth-child(1) {
+      padding-left: 0;
+      width: auto; }
+    .partner .card-loyalty .tabs-wrap .tab-content .list-item .table-head h5:nth-child(2) {
+      width: auto; }
+    .partner .card-loyalty .tabs-wrap .tab-content .list-item .table-head h5:nth-child(3) {
+      width: auto; }
+    .partner .card-loyalty .tabs-wrap .tab-content .list-item .table-body {
+      width: 100%;
+      overflow: scroll; }
+      .partner .card-loyalty .tabs-wrap .tab-content .list-item .table-body .table-row {
+        width: 550px; }
+  .footer .footer-wrap .footer-right .footer-phone a:before {
+    left: 25px; } }
+
+@media screen and (max-width: 521px) {
+  .title {
+    font-size: 32px; }
+  .connection h2 {
+    font-size: 32px; }
+  .connection .connect-request h3 {
+    font-size: 31px; }
+  .platform-info h2 {
+    font-size: 35px; }
+  .platform-info .platform-connect {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+    -moz-box-orient: vertical;
+    -moz-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse; }
+    .platform-info .platform-connect p {
+      margin-bottom: 10px; }
+  .contacts h2 {
+    font-size: 32px; } }
+
+@media screen and (max-width: 479px) {
+  .title {
+    font-size: 25px;
+    line-height: 40px; }
+  .connection h2 {
+    font-size: 25px; }
+  .connection .connect-request h3 {
+    font-size: 24px; }
+  .platform-info h2 {
+    font-size: 25px; }
+  .contacts h2 {
+    font-size: 35px; }
+  .partner .card-loyalty h2 {
+    font-size: 28px; }
+  .our-partners form .form-field input {
+    width: 75%;
+    text-indent: 20px;
+    font-size: 17px; } }
+
+@media screen and (max-width: 470px) {
+  .activation .card:before {
+    display: none; } }
+
+@media screen and (max-width: 431px) {
+  .connection .connect-request form {
+    text-align: center; }
+    .connection .connect-request form:after {
+      display: none; }
+  .partner .partner-top {
+    text-align: center; }
+    .partner .partner-top h1 {
+      display: block;
+      font-size: 34px; } }
+
+@media screen and (max-width: 414px) {
+  body {
+    zoom: 0.6; }
+  .connection .connect-request p {
+    font-size: 23px; }
+  .platform-info .platform-connect p {
+    font-size: 23px; }
+  .platform-info .platform-pic {
+    height: 240px; }
+    .platform-info .platform-pic .platform-top-row, .platform-info .platform-pic .platform-bottom-row {
+      display: none; }
+  .contacts {
+    margin-bottom: 100px; }
+    .contacts .contacts-wrap form {
+      text-align: center; } }
+
+@media screen and (max-width: 405px) {
+  .activation .card {
+    width: 100%; }
+  .platform-info .partners span {
+    font-size: 38px; } }
+
+@media screen and (max-width: 384px) {
+  .title {
+    font-size: 23px; }
+  .connection h2 {
+    font-size: 23px; }
+  .connection .connect-request h3 {
+    font-size: 22px; }
+  .platform-info h2 {
+    font-size: 23px; }
+  .contacts h2 {
+    font-size: 23px; }
+  .partner .card-loyalty h2 {
+    font-size: 23px; }
+  .activation form .form-field {
+    width: 100%; }
+    .activation form .form-field input {
+      width: 100%; }
+  .activation form button {
+    width: 100%; }
+  .our-partners form .form-field input {
+    text-indent: 0;
+    font-size: 15px; }
+  #contacts_map {
+    width: 320px; } }
+
+@media screen and (max-width: 373px) {
+  .partner .partner-info .partner-info-right p {
+    font-size: 15px; }
+    .partner .partner-info .partner-info-right p span {
+      font-size: 20px; }
+  .partner .partner-info .partner-info-right a {
+    font-size: 20px;
+    width: 100%; }
+  .partner .card-loyalty .tabs-wrap ul li {
+    font-size: 22px; }
+  .partner .card-loyalty a {
+    width: 100%; } }
+
+@media screen and (max-width: 360px) {
+  zoom: 0.7; }
+
+@media screen and (max-width: 340px) {
+  .partner .card-loyalty .tabs-wrap ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .partner .card-loyalty .tabs-wrap ul li {
+      margin-bottom: 25px; }
+  .partner .card-loyalty .tabs-wrap .tab-content .list-item .table-head h5 {
+    font-size: 17px; } }
+
+@media screen and (max-width: 322px) {
+  body {
+    zoom: 0.7; }
+  .title {
+    font-size: 20px; }
+  .connection h2 {
+    font-size: 20px; }
+  .connection .connect-request h3 {
+    font-size: 19px; }
+  .connection .connect-request p {
+    font-size: 18px; }
+  .connection .connect-request form .form-field input {
+    font-size: 19px; }
+  .platform-info h2 {
+    font-size: 20px; }
+  .platform-info .platform-connect {
+    margin-bottom: 23px; }
+    .platform-info .platform-connect a img {
+      width: 55px; }
+    .platform-info .platform-connect p {
+      line-height: 20px;
+      font-size: 15px; }
+  .contacts h2 {
+    font-size: 20px; }
+  .contacts .contacts-wrap form .form-field input, .contacts .contacts-wrap form .form-field textarea {
+    font-size: 19px; }
+  .contacts .contacts-wrap .contacts-block .contacts-list a, .contacts .contacts-wrap .contacts-block .contacts-list span {
+    font-size: 19px; }
+  .partner .card-loyalty h2 {
+    font-size: 20px; } }

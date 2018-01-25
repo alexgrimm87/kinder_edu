@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <!-- build:css -->
+
+    <link rel="stylesheet" href="css/fancybox.css">
+    <link rel="stylesheet" href="css/formstyler.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- add new file here -->
+
+    <link rel="stylesheet" href="css/style_basic.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_adapt.css">
+    <!-- endbuild -->
+
+    <!--[if lt IE 10]>
+    <link rel="stylesheet" href="https://rawgit.com/codefucker/finalReject/master/reject/reject.css" media="all" />
+    <script type="text/javascript" src="https://rawgit.com/codefucker/finalReject/master/reject/reject.min.js"></script>
+    <![endif]-->
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<div class="global-wrapper">
+    <!-- HEADER -->
+    <header class="header">
+      <div class="mbox">
+        <div class="header-wrap">
+          <a class="logo" href="index.html">
+            <img src="images/logo.png" alt="logo">
+          </a>
+          <a class="phone" href="tel:79066689133">+7 906 668-91-33</a>
+        </div>
+        <nav>
+          <div class="burger">
+            <div class="burger-brick"></div>
+            <div class="burger-brick middle"></div>
+            <div class="burger-brick"></div>
+          </div>
+          <ul class="main-menu">
+            <li><a href="#">Как пользоваться</a></li>
+            <li><a class="active" href="#">Где покупать</a></li>
+            <li><a href="partners.html">Партнеры</a></li>
+            <li><a href="#">Тарифы</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- /HEADER -->
+
+    <!-- MAIN -->
+    <div class="main">
+        <!-- add partials here -->
+		<section class="connection">
+		  <div class="mbox">
+		    <h2>Подключение партнера</h2>
+		    <div class="connect-request">
+		      <h3>Заполните заявку</h3>
+		      <p>Мы рассмотрим ее за 1 рабочий день</p>
+		      <form class="connection-form" action="ajax.php" method="post">
+		        <div class="form-field">
+		          <input type="text" name="name" placeholder="Наименование партнера" required />
+		        </div>
+		        <div class="form-field">
+		          <input type="text" name="address" placeholder="Полный адрес" required />
+		        </div>
+		        <div class="form-field">
+		          <input type="text" name="chief" placeholder="ФИО руководителя" required />
+		        </div>
+		        <div class="form-field">
+		          <input type="tel" class="phone" name="tel" placeholder="Телефон" required />
+		        </div>
+		        <button type="submit" class="el-submit">отправить заявку</button>
+		      </form>
+		    </div>
+		  </div>
+		</section>
+		
+		<section class="platform-info">
+		  <div class="mbox">
+		    <div class="platform-connect">
+		      <a href="#"><img src="images/info-button.png" alt=""></a>
+		      <p>Подключение партнеров к нашей аудитории <span>бесплатно</span></p>
+		    </div>
+		    <h2>В нашей платформе</h2>
+		    <div class="platform-pic">
+		      <div class="platform-top-row">
+		        <div class="platform-item">
+		          <img src="images/englisland-logo.png" alt="">
+		        </div>
+		        <div class="platform-item">
+		          <img src="images/detki-logo.png" alt="">
+		        </div>
+		        <div class="platform-item">
+		          <img src="images/izumenka-icon.png" alt="">
+		        </div>
+		        <div class="platform-item">
+		          <img src="images/leo-logo.png" alt="">
+		        </div>
+		        <div class="platform-item">
+		          <img src="images/englisland-logo.png" alt="">
+		        </div>
+		        <div class="platform-item">
+		          <img src="images/aykasan-logo.png" alt="">
+		        </div>
+		      </div>
+		      <div class="platform-bottom-row">
+		        <div class="platform-item">
+		          <img src="images/mir-logo.png" alt="">
+		        </div>
+		        <div class="platform-item">
+		          <img src="images/izumenka-icon.png" alt="">
+		        </div>
+		        <div class="platform-item">
+		          <img src="images/aykasan-logo.png" alt="">
+		        </div>
+		        <div class="platform-item">
+		          <img src="images/mir-logo.png" alt="">
+		        </div>
+		        <div class="platform-item">
+		          <img src="images/ideal-logo.png" alt="">
+		        </div>
+		        <div class="platform-item">
+		          <img src="images/leo-logo.png" alt="">
+		        </div>
+		      </div>
+		      <div class="partners">
+		        <span>223</span>
+		      </div>
+		    </div>
+		    <h2>партнера</h2>
+		  </div>
+		</section>
+    </div>
+    <!-- /MAIN -->
+
+    <div class="hidden-block">
+    
+      <div id="call_success">
+          <div class="call-success">
+               <div class="call_success">
+                   <div class="call-title">Спасибо за заявку!</div>
+                   <div class="call-subtitle">Мы свяжемся с Вами в ближайшее время</div>
+               </div>
+          </div>
+      </div>
+    
+      <div id="call-popup">
+          <form action="ajax.php" name="" class="contact-form">
+              <div class="contact-form-title">
+                  <h5>Lorem ipsum dolor.</h5>
+              </div>
+              <div class="contact-form-row cfix">
+                  <div class="contact-form-item">
+                      <div class="contact-form-item-input form_row">
+                          <div class="form_input">
+                              <input type="text" name="contact_name" required="required" value="" placeholder="Ваше Имя">
+                          </div>
+                      </div>
+                  </div>
+                  <div class="contact-form-item">
+                      <div class="contact-form-item-input form_row">
+                          <div class="form_input">
+                              <input type="text" name="contact_tel" value="" required="required" placeholder="Ваш номер" class="tel-mask">
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="contact-form-row cfix">
+                  <div class="contact-form-item">
+                      <button type="submit" class="contact-submit">
+                          <span>Отправить заявку</span>
+                      </button>
+                  </div>
+              </div>
+          </form>
+      </div>
+    
+      <div id="sms-popup">
+        <h5>Введите код из SMS</h5>
+        <p>Для активации карты, введите код подтверждения</p>
+        <form class="sms-form" action="ajax.php" method="post" name="smsForm">
+          <div class="form-field">
+            <input id="smsInput" class="sms" type="text" name="sms" required autofocus=""/>
+          </div>
+          <span>Код подтверждения введен неправильно! Осталось попыток: <b>2</b></span>
+          <a href="#">Отправить снова</a>
+          <button type="submit">Отправить</button>
+        </form>
+      </div>
+    
+      <div id="sms-popup2">
+        <h5>Введите код из SMS</h5>
+        <p>Для активации карты, введите код подтверждения</p>
+        <form action="ajax.php" method="post">
+          <div class="form-field">
+            <input class="sms" type="text" name="sms" autofocus="autofocus" required />
+          </div>
+          <span> Следующая отправка кода подтверждения возможна через
+          <br><b>30</b> сек</span>
+          <button type="submit">Отправить</button>
+        </form>
+      </div>
+    
+      <div id="sms_success" class="success">
+        <h5 class="title-red">Карта успешно активирована!</h5>
+        <p>Вам отправлены данные для авторизации в 
+        <br>Вашем личном кабинете</p>
+        <span>Авторизоваться можно по <a href="#">Ссылке</a>
+        <br>или на портале <a href="#">KinderEdu</a></span>
+      </div>
+    
+      <div id="contacts_map">
+        <div id="mymap2"></div>
+      </div>
+    
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer_placeholder"></div>
+    <footer class="footer">
+      <div class="mbox">
+        <div class="footer-wrap">
+          <div class="footer-left">
+            <div class="burger-foot">
+              <div class="burger-foot-brick"></div>
+              <div class="burger-foot-brick foot-middle"></div>
+              <div class="burger-foot-brick"></div>
+            </div>
+            <div class="footer-list-wrap">
+              <div class="footer-list-col">
+                <h6>О сервисе</h6>
+                <ul>
+                  <li><a href="#">KinderEdu</a></li>
+                  <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+              </div>
+              <div class="footer-list-col">
+                <h6>О карте</h6>
+                <ul>
+                  <li><a href="#">Правила использования</a></li>
+                  <li><a href="#">Где применять</a></li>
+                  <li><a href="#">Тарифы</a></li>
+                  <li><a href="#">Заказать карту</a></li>
+                  <li><a href="#">Восстановить карту</a></li>
+                </ul>
+              </div>
+              <div class="footer-list-col">
+                <h6>Партнерам</h6>
+                <ul>
+                  <li><a href="connection.html">Подключиться</a></li>
+                  <li><a href="#">Личный кабинет</a></li>
+                </ul>
+              </div>
+            </div>
+            <span>© 2016, Сервис является собственностью компании ООО "СофтКБ"</span>
+          </div>
+          <div class="footer-right">
+            <div class="footer-email">
+              <a href="mailto:expert@kinderedu.ru">expert@kinderedu.ru</a>
+            </div>
+            <div class="footer-phone">
+              <a class="phone" href="#">+7 906 668-91-33</a>
+              <a class="phone" href="#">+7 906 668-91-33</a>
+            </div>
+            <div class="social">
+              <a href="#"><img src="images/vk-icon.png" alt=""></a>
+              <a href="#"><img src="images/fb-icon.png" alt=""></a>
+              <a href="#"><img src="images/ok-icon.png" alt=""></a>
+              <a href="#"><img src="images/twitter-icon.png" alt=""></a>
+              <a href="#"><img src="images/insta-icon.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER -->
+    
+    <!-- SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/validate_script.js" ></script>
+    
+    <!-- build:js -->
+    <script type="text/javascript" src="js/plagins/device.js" ></script>
+    <script type="text/javascript" src="js/plagins/jquery.fancybox.pack.js" ></script>
+    <script type="text/javascript" src="js/plagins/jquery.formstyler.min.js" ></script>
+    <script type="text/javascript" src="js/plagins/jquery.validate.min.js" ></script>
+    <script type="text/javascript" src="js/plagins/maskInput.js" ></script>
+    <script type="text/javascript" src="js/plagins/slick.js" ></script>
+    
+    <script type="text/javascript" src="js/basic_scripts.js" ></script>
+    <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <script type="text/javascript" src="js/develop/script.js" ></script>
+    <!-- endbuild -->
+    
+    <!-- /SCRIPTS -->
+
+</div>
+</body>
+</html>

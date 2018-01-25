@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <!-- build:css -->
+
+    <link rel="stylesheet" href="css/fancybox.css">
+    <link rel="stylesheet" href="css/formstyler.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- add new file here -->
+
+    <link rel="stylesheet" href="css/style_basic.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_adapt.css">
+    <!-- endbuild -->
+
+    <!--[if lt IE 10]>
+    <link rel="stylesheet" href="https://rawgit.com/codefucker/finalReject/master/reject/reject.css" media="all" />
+    <script type="text/javascript" src="https://rawgit.com/codefucker/finalReject/master/reject/reject.min.js"></script>
+    <![endif]-->
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<div class="global-wrapper">
+    <!-- HEADER -->
+    <header class="header">
+      <div class="mbox">
+        <div class="header-wrap">
+          <a class="logo" href="index.html">
+            <img src="images/logo.png" alt="logo">
+          </a>
+          <a class="phone" href="tel:79066689133">+7 906 668-91-33</a>
+        </div>
+        <nav>
+          <div class="burger">
+            <div class="burger-brick"></div>
+            <div class="burger-brick middle"></div>
+            <div class="burger-brick"></div>
+          </div>
+          <ul class="main-menu">
+            <li><a href="#">Как пользоваться</a></li>
+            <li><a class="active" href="#">Где покупать</a></li>
+            <li><a href="partners.html">Партнеры</a></li>
+            <li><a href="#">Тарифы</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- /HEADER -->
+
+    <!-- MAIN -->
+    <div class="main">
+        <!-- add partials here -->
+		<section class="activation setion-animate">
+		  <div class="mbox cfix">
+		    <h2 class="title">Активируйте карту</h2>
+		    <div class="instruction">
+		      <ul>
+		        <li>Заполните Ваши номер телефона и номер Вашей карты KinderEdu.</li>
+		        <li>Дождитесь SMS с четырех значным кодом подтверждения.</li>
+		        <li>Введите код подтверждения в появившемся окне.</li>
+		        <li>На Ваш номер телефона придет SMS с данными для авторизации в Вашем Личном кабинете!</li>
+		      </ul>
+		    </div>
+		    <form class="activation-form" action="ajax.php" method="post">
+		      <div class="form-field">
+		        <input class="phone" type="text" name="phone" placeholder="Ваш номер телефона" required />
+		      </div>
+		      <div class="form-field">
+		        <input id="card" type="text" name="card" placeholder="Ваш номер карты" required />
+		      </div>
+		      <button type="submit">Активировать</button>
+		    </form>
+		    <div class="card animate-it">
+		      <img src="images/card.png" alt="card">
+		    </div>
+		    <div class="instruction-steps">
+		
+		      <div class="steps-item">
+		        <div class="steps-icon">
+		          <img src="images/write-icon.png" alt="">
+		        </div>
+		        <p>Заполните данные</p>
+		      </div>
+		
+		      <div class="steps-item">
+		        <div class="steps-icon">
+		          <img src="images/sms-icon.png" alt="">
+		        </div>
+		        <p>Дождитесь SMS</p>
+		      </div>
+		
+		      <div class="steps-item">
+		        <div class="steps-icon">
+		          <img src="images/card-icon.png" alt="">
+		        </div>
+		        <p>Активируйте карту</p>
+		      </div>
+		
+		      <div class="steps-item">
+		        <div class="steps-icon">
+		          <img src="images/service-icon.png" alt="">
+		        </div>
+		        <p>Пользуйтесь сервисом</p>
+		      </div>
+		
+		    </div>
+		  </div>
+		</section>
+		
+		<section class="discount">
+		  <div class="mbox">
+		    <h2 class="title">Получайте скидку  в магазинах — партнерах</h2>
+		    <div class="discount-info">
+		      <p>Покупайте любые товары и услуги, которые предлагают Вам наши 
+		      магазины-партнеры. Сниженные цены доступны только для Вас!</p>
+		      <p>Количество приобретаемых товаров и услуг, при наличии карты, не ограничено!</p>
+		    </div>
+		    <div class="discount-top-row">
+		      <div class="discount-item" href="#">
+		        <img src="images/englisland-logo.png" alt="">
+		      </div>
+		
+		      <div class="discount-item" href="#">
+		        <img src="images/detki-logo.png" alt="">
+		      </div>
+		
+		      <div class="discount-item" href="#">
+		        <img src="images/ideal-logo.png" alt="">
+		      </div>
+		
+		      <div class="discount-item" href="#">
+		        <img src="images/aykasan-logo.png" alt="">
+		      </div>
+		    </div>
+		
+		    <div class="discount-bottom-row">
+		      <div class="discount-item" href="#">
+		        <img src="images/mir-logo.png" alt="">
+		      </div>
+		
+		      <div class="discount-item" href="#">
+		        <img src="images/izumenka-icon.png" alt="">
+		      </div>
+		
+		      <div class="discount-item" href="#">
+		        <img src="images/leo-logo.png" alt="">
+		      </div>
+		
+		      <div class="discount-item" href="#">
+		        <img src="images/safety-logo.png" alt="">
+		      </div>
+		    </div>
+		  </div>
+		</section>
+		
+		<section class="profile">
+		  <div class="mbox">
+		    <h2 class="title">Личный кабинет</h2>
+		    <div class="profile-info">
+		      <p>Ваш удобный инструмент для управления сервисом - всегда под рукой!</p>
+		    </div>
+		    <div class="profile-row profile-top-row">
+		      <div class="profile-item">
+		        <div class="profile-icon">
+		          <img src="images/view-stores-icon.png" alt="">
+		        </div>
+		        <p>Удобный просмотр магазинов-партнеров</p>
+		        <span>Отображены покупки, 
+		        размер скидки, адрес, 
+		        режим работы</span>
+		      </div>
+		      <div class="profile-item">
+		        <div class="profile-icon">
+		          <img src="images/info-icon.png" alt="">
+		        </div>
+		        <p>Бесплатное SMS-информирование</p>
+		        <span>Информация о событиях Вашего 
+		        ребенка будет приходить на 
+		        Ваш мобильный телефон</span>
+		      </div>
+		      <div class="profile-item">
+		        <div class="profile-icon">
+		          <img src="images/online-icon.png" alt="">
+		        </div>
+		        <p>Оплата сада в режиме Онлайн</p>
+		        <span>Не выходя из дома Вы можете 
+		        оплатить за детский сад 
+		        (Пока с комиссией)</span>
+		      </div>
+		      <div class="profile-item">
+		        <div class="profile-icon">
+		          <img src="images/archive-icon.png" alt="">
+		        </div>
+		        <p>Архив ребенка</p>
+		        <span>По окончанию детского сада, сервис 
+		        KinderEdu бесплатно передает Вам 
+		        флеш-накопитель со всеми 
+		        материалами ребенка</span>
+		      </div>
+		    </div>
+		
+		    <div class="profile-row profile-bottom-row">
+		      <div class="profile-item">
+		        <div class="profile-icon">
+		          <img src="images/like-icon.png" alt="">
+		        </div>
+		        <p>Удобная и доступная оплата сервиса</p>
+		        <span>Стоимость 1 руб / день или 
+		        160 руб / 6 мес. 320 руб / 1год</span>
+		      </div>
+		
+		      <div class="profile-item">
+		        <div class="profile-icon">
+		          <img src="images/money-icon.png" alt="">
+		        </div>
+		        <p>Экономия больше, чем стоит сервис</p>
+		        <span>По итогам за период Вы поймете, 
+		        что сервис для Вас бесплатный</span>
+		      </div>
+		
+		      <div class="profile-item">
+		        <div class="profile-icon">
+		          <img src="images/view-icon.png" alt="">
+		        </div>
+		        <p>Детализация покупок</p>
+		        <span>Просмотр покупок в
+		        магазине-партнере</span>
+		      </div>
+		
+		      <div class="profile-item">
+		        <div class="profile-icon">
+		          <img src="images/email-icon.png" alt="">
+		        </div>
+		        <p>Email / SMS-уведомления</p>
+		        <span>Новые магазины-партнеры, 
+		        акции, бонсы и многое другое</span>
+		      </div>
+		    </div>
+		  </div>
+		</section>
+    </div>
+    <!-- /MAIN -->
+
+    <div class="hidden-block">
+    
+      <div id="call_success">
+          <div class="call-success">
+               <div class="call_success">
+                   <div class="call-title">Спасибо за заявку!</div>
+                   <div class="call-subtitle">Мы свяжемся с Вами в ближайшее время</div>
+               </div>
+          </div>
+      </div>
+    
+      <div id="call-popup">
+          <form action="ajax.php" name="" class="contact-form">
+              <div class="contact-form-title">
+                  <h5>Lorem ipsum dolor.</h5>
+              </div>
+              <div class="contact-form-row cfix">
+                  <div class="contact-form-item">
+                      <div class="contact-form-item-input form_row">
+                          <div class="form_input">
+                              <input type="text" name="contact_name" required="required" value="" placeholder="Ваше Имя">
+                          </div>
+                      </div>
+                  </div>
+                  <div class="contact-form-item">
+                      <div class="contact-form-item-input form_row">
+                          <div class="form_input">
+                              <input type="text" name="contact_tel" value="" required="required" placeholder="Ваш номер" class="tel-mask">
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="contact-form-row cfix">
+                  <div class="contact-form-item">
+                      <button type="submit" class="contact-submit">
+                          <span>Отправить заявку</span>
+                      </button>
+                  </div>
+              </div>
+          </form>
+      </div>
+    
+      <div id="sms-popup">
+        <h5>Введите код из SMS</h5>
+        <p>Для активации карты, введите код подтверждения</p>
+        <form class="sms-form" action="ajax.php" method="post" name="smsForm">
+          <div class="form-field">
+            <input id="smsInput" class="sms" type="text" name="sms" required autofocus=""/>
+          </div>
+          <span>Код подтверждения введен неправильно! Осталось попыток: <b>2</b></span>
+          <a href="#">Отправить снова</a>
+          <button type="submit">Отправить</button>
+        </form>
+      </div>
+    
+      <div id="sms-popup2">
+        <h5>Введите код из SMS</h5>
+        <p>Для активации карты, введите код подтверждения</p>
+        <form action="ajax.php" method="post">
+          <div class="form-field">
+            <input class="sms" type="text" name="sms" autofocus="autofocus" required />
+          </div>
+          <span> Следующая отправка кода подтверждения возможна через
+          <br><b>30</b> сек</span>
+          <button type="submit">Отправить</button>
+        </form>
+      </div>
+    
+      <div id="sms_success" class="success">
+        <h5 class="title-red">Карта успешно активирована!</h5>
+        <p>Вам отправлены данные для авторизации в 
+        <br>Вашем личном кабинете</p>
+        <span>Авторизоваться можно по <a href="#">Ссылке</a>
+        <br>или на портале <a href="#">KinderEdu</a></span>
+      </div>
+    
+      <div id="contacts_map">
+        <div id="mymap2"></div>
+      </div>
+    
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer_placeholder"></div>
+    <footer class="footer">
+      <div class="mbox">
+        <div class="footer-wrap">
+          <div class="footer-left">
+            <div class="burger-foot">
+              <div class="burger-foot-brick"></div>
+              <div class="burger-foot-brick foot-middle"></div>
+              <div class="burger-foot-brick"></div>
+            </div>
+            <div class="footer-list-wrap">
+              <div class="footer-list-col">
+                <h6>О сервисе</h6>
+                <ul>
+                  <li><a href="#">KinderEdu</a></li>
+                  <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+              </div>
+              <div class="footer-list-col">
+                <h6>О карте</h6>
+                <ul>
+                  <li><a href="#">Правила использования</a></li>
+                  <li><a href="#">Где применять</a></li>
+                  <li><a href="#">Тарифы</a></li>
+                  <li><a href="#">Заказать карту</a></li>
+                  <li><a href="#">Восстановить карту</a></li>
+                </ul>
+              </div>
+              <div class="footer-list-col">
+                <h6>Партнерам</h6>
+                <ul>
+                  <li><a href="connection.html">Подключиться</a></li>
+                  <li><a href="#">Личный кабинет</a></li>
+                </ul>
+              </div>
+            </div>
+            <span>© 2016, Сервис является собственностью компании ООО "СофтКБ"</span>
+          </div>
+          <div class="footer-right">
+            <div class="footer-email">
+              <a href="mailto:expert@kinderedu.ru">expert@kinderedu.ru</a>
+            </div>
+            <div class="footer-phone">
+              <a class="phone" href="#">+7 906 668-91-33</a>
+              <a class="phone" href="#">+7 906 668-91-33</a>
+            </div>
+            <div class="social">
+              <a href="#"><img src="images/vk-icon.png" alt=""></a>
+              <a href="#"><img src="images/fb-icon.png" alt=""></a>
+              <a href="#"><img src="images/ok-icon.png" alt=""></a>
+              <a href="#"><img src="images/twitter-icon.png" alt=""></a>
+              <a href="#"><img src="images/insta-icon.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER -->
+    
+    <!-- SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/validate_script.js" ></script>
+    
+    <!-- build:js -->
+    <script type="text/javascript" src="js/plagins/device.js" ></script>
+    <script type="text/javascript" src="js/plagins/jquery.fancybox.pack.js" ></script>
+    <script type="text/javascript" src="js/plagins/jquery.formstyler.min.js" ></script>
+    <script type="text/javascript" src="js/plagins/jquery.validate.min.js" ></script>
+    <script type="text/javascript" src="js/plagins/maskInput.js" ></script>
+    <script type="text/javascript" src="js/plagins/slick.js" ></script>
+    
+    <script type="text/javascript" src="js/basic_scripts.js" ></script>
+    <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <script type="text/javascript" src="js/develop/script.js" ></script>
+    <!-- endbuild -->
+    
+    <!-- /SCRIPTS -->
+
+</div>
+</body>
+</html>
